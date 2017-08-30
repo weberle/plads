@@ -1,5 +1,5 @@
-# plads
 PATTERN LEARNING AND ANOMALY DETECTION SYSTEM (PLADS)
+=====================================================
 
 Pattern Learning and Anomaly Detection in Streams (or PLADS) is a novel approach that focuses on streaming data that represents the relationships and transactions be
 tween entities (people, organizations, etc.) by discovering and analyzing a graph structure of their social and behavioral network. Through the analysis of the struc
@@ -14,8 +14,7 @@ Dr. Larry Holder, School of Electrical Engineering and Computer Science, Washing
 Support: This material is based upon work supported by the National Science Foundation under Grant Nos. 1318957 and 1646640.
 
 
-=====================================
-Steps to Installing and Running Plads
+Steps to Installing and Running PLADS
 =====================================
 
 VERSION
