@@ -68,15 +68,17 @@ RUNNING
 
 NOTES
 
-- Graph input files must each start with 1 (i.e., cant just divide an existing
-  graph input file into multiple files without having each graph input file
-  start over in the numbering sequence.
+- The first line in each graph input file (not including comments), must start
+  at "XP # 1" (i.e., cant just divide an existing graph input file into 
+  multiple files without having each graph input file start over in the 
+  numbering sequence. (See GBAD documentation for more information about the
+  graph input file format.)
 
 - Do not specify more partitions (in plads.cfg) than CPUs available.
 
 - The "change detection" option (if not set to "NONE" in plads.cfg) helps to 
   speed up the processing by determining whether or not to search for a new
-  normative pattern IF the specifid graph property metric for the new partition
+  normative pattern IF the specified graph property metric for the new partition
   exceeds a threshold. If none is specified, then a new normative pattern is
   generated with each new partition.
 
@@ -84,4 +86,5 @@ NOTES
 KNOWN ISSUES
 
 - If the chosen normative pattern across the N partitions does not exist for a 
-  particular partition, it will throw an error (but will continue processing).
+  particular partition, it will throw an error for that partition (but will 
+  continue processing).
